@@ -1,0 +1,200 @@
+
+*{
+   box-sizing: padding-box;
+    
+}
+body{
+    background-image: url("../Images/background.png");
+   perspective: 500px;
+}
+
+.container {
+ width: 1170px;
+    margin: auto;
+ 
+}
+
+.header{
+    
+    
+}
+.header .container h2{
+    padding: 10px;
+     margin-bottom: 10px;
+    text-align: center;
+    font-family: "FF Hekaya";
+    font-size: 40px;
+    margin-block-end: auto;
+    transition: all 5s ease-in-out;
+}
+
+.header .container h2:hover{
+    transform: rotateY(90deg);
+}
+
+.header .container h1{
+    text-align: center;
+     color: #067dae;
+    font-weight:900;
+    font-size: 45px;
+   margin-block-end: auto;
+    transition: all 5s ease-in-out;
+
+}
+
+.header .container h1:hover{
+    transform: scale(1.5,1.5)
+}
+
+.header .container h1 span:first-child{
+     font-family: 'Droid Arabic Kufi', sans-serif;
+    
+}
+
+.header .container h1 span:nth-child(2){
+     font-family: 'Droid Arabic Naskh', serif;
+    
+}
+
+.header .container h1 span:last-child{
+     font-family: 'Droid Arabic Naskh', serif;
+     font-size: 40px;
+}
+
+.welcome {
+    overflow: hidden;
+    
+}
+
+.welcome .container p{
+     text-align: center;
+     color: #000;
+    font-weight:bold;
+    font-size: 17px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    line-height: 0.7;
+}
+/*.welcome .container p:hover{
+    transform: scale(2.2);
+}*/
+.center{
+  
+    margin-left: 120px;
+    margin-top: 61px;
+}
+.center .container .content{
+    margin-top: 50px;
+  float: left;
+/*overflow: hidden;*/
+    width: 350px;
+}
+.center .container .content .icon{
+    width: 30%;
+}
+.center .container .content .icon img{
+   display: inline-block;
+width: 90px;
+height: 90px;
+margin-top: 90px;
+margin-left: 130px;
+transition: all 2s ease-in-out;
+}
+.center .container .content .icon img:hover{
+    
+    transform: rotateY(180deg)
+   
+    
+}
+.center .container .content .text p{
+   text-align: center;
+    color: #634bc2;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    line-height: .8;
+    transition: all 1s ease-in-out;
+}
+.center .container .content .text .rev p:hover{
+   transform: scale(1.5,1.5);
+}
+
+.center .container .content .text .insta p:first-child{
+    text-align: center;
+    color: #634bc2;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Noto Sans Kufi Arabic', sans-serif;
+}
+
+.center .container .content .text .insta p:last-child{
+    text-align: center;
+    color: #000;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
+.center .container .content .text .insta p:last-child:hover{
+    color:#662A2ACC;
+}
+.center .container .content .text .rev p{
+    padding-top: 25px;
+    text-align: center;
+    color: #1484b3;
+    font-size: 45px;
+margin-right: 35px;
+   
+}
+
+.center .container .content .Twitter{
+    
+ float: right;
+    width: 88%;
+    border: 5px solid #c3e0ec;
+border-radius: 10px;
+   -moz- box-shadow: box-shadow: 7px 9px 5px 2px #666;
+    box-shadow: 7px 9px 5px 2px #666;
+    transition: all 3s ease-in-out;
+}
+.center .container .content .Twitter:hover{
+    transform: scale3d(1.2,1.2,1)
+}
+.clearfix{
+    clear: both;
+}
+.footer{
+    overflow: hidden;
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+   /* padding: 10px 0 20px 0;*/
+    background-color: #24292d;
+}
+.footer ul {
+   margin-left: 150px;
+    
+}
+.footer ul li {
+    display: inline-block;
+    margin-top: 20px;
+    padding-top: 15px;
+ 
+}
+.footer p{
+    width: 50%;
+    height: 26px;
+    float: right;
+    color: #808080;
+    font-family: 'Harmattan', sans-serif;
+    font-size: 35px;
+    margin-right: 60px;
+    font-weight: bolder;
+    margin-top: 22px;
+}
+@font-face {
+    font-family:Sukar;
+    font-style: normal;
+    font-weight: 400;
+    src: url('Fonts/Sukar Black.ttf') format('ttf');
+
+}
